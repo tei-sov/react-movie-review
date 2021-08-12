@@ -36,7 +36,7 @@ const Topstories = () => {
       </h1>
       <div className="title_div">
         {" "}
-        <h1>Top Stories API (Using useEffect Hook)</h1> <h1></h1>{" "}
+        <h1>Top Stories API (Using useEffect Hook)</h1>{" "}
       </div>
       <h1>
         {TopStories.map((each_topstory) => {

@@ -46,13 +46,13 @@ class moviereview extends Component {
 
           <div className="title_div">
             {" "}
-            <h1>Movies API (Using componentDidMount)</h1> <h1></h1>{" "}
+            <h1>Movies API (Using componentDidMount)</h1>{" "}
           </div>
 
           <div className="APIinformation">
-            {this.state.reviews.map((each_review) => {
+            {this.state.reviews.map((each_review, index) => {
               return (
-                <div className="api_info">
+                <div key={index} className="api_info">
                   <h2 className="img-box">
                     {" "}
                     <img src={each_review.multimedia.src} alt="" />{" "}
